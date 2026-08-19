@@ -1,0 +1,17 @@
+{
+  "_comment": "Host this file at: https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/technologia-updates/main/patterns.json",
+  "_comment2": "Edit ONLY the pattern strings after each Roblox patch. All installed clients fetch this on launch.",
+
+  "roblox_version": "0.634.0.6340512",
+  "updated_at": "2025-08-19",
+
+  "luaL_loadbuffer": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 40 49 8B D8 48 8B",
+  "lua_pcall":       "48 83 EC 28 E8 ? ? ? ? 48 85 C0 74 ? 48 8B C8",
+  "lua_tolstring":   "48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 20 8B DA 49 8B F8",
+  "lua_settop":      "85 D2 78 ? 48 63 C2 48 8D 14 C1",
+  "lua_newthread":   "48 83 EC 28 E8 ? ? ? ? 48 85 C0 74 ? 48 8B D8 E8",
+  "globalState_ptr": "48 8B 05 ? ? ? ? 48 85 C0 74",
+
+  "byfron_scan_interval_ms": 500,
+  "inject_delay_ms": 2500
+}
